@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+
+.loading i{
+  animation: spinner 1.5s linear infinite ;
+}
+@keyframes spinner {
+  0% {
+        transform: rotate(0deg);
+     }
+  100% {
+        transform: rotate(360deg);
+     }
+}
